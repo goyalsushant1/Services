@@ -1,0 +1,5 @@
+name: Custom Service User
+description: This use the custom service created in create_service module
+type: module
+package: Bootcamp
+core: 8.x

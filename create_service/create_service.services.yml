@@ -1,0 +1,4 @@
+services:
+  create_service.getUserEmail:
+    class: '\Drupal\create_service\CreateService'
+    arguments: ['@current_user']

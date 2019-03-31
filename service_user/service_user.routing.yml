@@ -1,0 +1,7 @@
+userserviceuser.route:
+  path: '/use-service-email'
+  defaults:
+    _controller: '\Drupal\service_user\Controller\ServiceUserController::displayEmail'
+    _title: 'Custom Service User'
+  requirements:
+    _permission: 'access content'

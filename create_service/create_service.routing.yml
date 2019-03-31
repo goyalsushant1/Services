@@ -1,0 +1,6 @@
+create_service.route:
+  path: '/show-email'
+  defaults:
+    _controller: '\Drupal\create_service\Controller\CreateServiceController::getUserEmail'
+  requirements:
+    _permission: 'access content'
